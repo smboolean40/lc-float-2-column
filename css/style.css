@@ -1,0 +1,45 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/* Header */
+header {
+	background-color: blueviolet;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+/* Main */
+.col-left, .col-right {
+	float: left;
+}
+.col-left {
+	width: calc(30% - 20px);
+	background-color: blue;
+	margin-right: 20px;
+}
+.col-right {
+	width: 70%;
+	background-color: pink;
+}
+
+/* Footer */
+footer {
+	background-color: blueviolet;
+	height: 100px;
+	margin-top: 20px;
+}
